@@ -1,0 +1,11 @@
+  # basic options
+  title: Resume
+  author: Angelic 
+  email: AngelicD@gmail.com
+  description: Resume
+  twitter_username: Angelicd
+  github_username:  Angelic
+
+  # Build settings
+  markdown: kramdown
+  theme: minima
