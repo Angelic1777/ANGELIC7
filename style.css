@@ -6,8 +6,7 @@ body{
 	color: #404040;
     float: left;
     font-size: 25px;
- font-size: 25px;
- padding: 1.85rem 1rem;
+      padding: 1.85rem 1rem;
   cursor: pointer;
 }
 
@@ -159,11 +158,11 @@ img{
 	background-color: #FFFFFF;
 }
 
-{
+i{
 	color: #feca07;
 	float: left;
 	margin-top: 1px;
-	padding: left;
+	padding: left; 
 	font-size: 2vw;
 }
 
@@ -184,10 +183,31 @@ img{
 	.fas.fa-suitcase {
 	color: #feca07;
 	}
-.fas {
-    color: #404040;
-    font-size: 29px;
-    float: none
-	    
-	   
-    
+.fas.fa-gamepad:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-laptop:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-headphones-alt:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-shopping-cart:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-suitcase {
+    scale:0px ;
+  padding: 1px;
+}
+.fas.fa-graduation-cap {
+    scale:0px ;
+  padding: 1px;
+}
+.fas.fa-pencil-alt {
+    scale:0px ;
+  padding: 1px;
+}
