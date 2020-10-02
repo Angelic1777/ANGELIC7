@@ -183,22 +183,7 @@ i{
 	.fas.fa-suitcase {
 	color: #feca07;
 	}
-.fas.fa-gamepad:hover:active {
-    transition: ease-in-out;
-    transform: scale(1.1);
-}
-.fas.fa-laptop:hover:active {
-    transition: ease-in-out;
-    transform: scale(1.1);
-}
-.fas.fa-headphones-alt:hover:active {
-    transition: ease-in-out;
-    transform: scale(1.1);
-}
-.fas.fa-shopping-cart:hover:active {
-    transition: ease-in-out;
-    transform: scale(1.1);
-}
+
 .fas.fa-suitcase {
     scale:0px ;
   padding: 1px;
