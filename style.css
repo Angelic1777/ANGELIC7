@@ -183,7 +183,22 @@ i{
 	.fas.fa-suitcase {
 	color: #feca07;
 	}
-
+.fas.fa-gamepad:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-laptop:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-headphones-alt:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.fas.fa-shopping-cart:hover:active {
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
 .fas.fa-suitcase {
     scale:0px ;
   padding: 1px;
@@ -204,8 +219,8 @@ div.at-container {
   height: 1%;
 }
 .at-item {
-  width: 300px;
-  height: 17px;
+  width: 1000px;
+  height: 0px;
   background-color:#BLACK;
   animation-name: roll-in-left;
   animation-duration: 1s;
@@ -214,6 +229,7 @@ div.at-container {
   animation-iteration-count: 5;
   animation-direction: normal;
   animation-fill-mode: none;
+  color: #404040;
 }
 @keyframes roll-in-left {
   0%{
@@ -225,3 +241,38 @@ div.at-container {
     -webkit-transform: translateX(0) rotate(0deg);
     transform: translateX(0) rotate(0deg);
     opacity: 1;
+		
+		.at-item {
+    width: 1000px;
+    height: 0px;
+    background-color: #BLACK;
+    animation-name: roll-in-left;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    color: #404040;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    align-items: right;
+}
+element {
+    color: 404040;
+}
+body {
+    font-family: helvetica;
+}
+0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+}
+100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+}
